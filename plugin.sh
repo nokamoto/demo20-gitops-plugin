@@ -22,4 +22,5 @@ then
     git config --local user.name "nokamoto"
     git add .
     git commit -m "${GIT_MESSAGE}"
+    git push origin master
 fi
